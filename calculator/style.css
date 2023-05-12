@@ -1,81 +1,102 @@
 .calculator {
-  width: 240px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 240px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .result {
-  display: block;
-  width: 90%;
-  margin-bottom: 10px;
-  padding: 10px;
-  font-size: 20px;
-  text-align: right;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+    display: block;
+    width: 85%;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    border-radius: 5px;
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 td {
-  padding: 5px;
+    padding: 5px;
 }
 
 button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  border: none;
-  border-radius: 5px;
-  background-color: #eee;
-  cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 button:active {
-  background-color: #f57c00;
+    background-color: #f57c00;
 }
 
 .operator {
-  background-color: #ff9800;
-  color: #fff;
+    background-color: #ff9800;
+    color: #fff;
 }
 
 .operator:hover {
-  background-color: #f57c00;
+    background-color: #f57c00;
 }
 
 .operator:active {
-  background-color: #ddd;
-  color: #f57c00;
+    background-color: #ddd;
+    color: #f57c00;
 }
 
 .clear {
-  background-color: #f44336;
-  color: #fff;
+    background-color: #f44336;
+    color: #fff;
 }
 
 .clear:hover {
-  background-color: #c62828;
+    background-color: #c62828;
 }
 
 .calculate {
-  background-color: #4caf50;
-  color: #fff;
+    background-color: #4caf50;
+    color: #fff;
 }
 
 .calculate:hover {
-  background-color: #388e3c;
+    background-color: #388e3c;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.equation {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.display {
+    border: 2px solid #f57c00;
+    width: 90%;
+    background-color: rgb(233, 233, 233);
 }
